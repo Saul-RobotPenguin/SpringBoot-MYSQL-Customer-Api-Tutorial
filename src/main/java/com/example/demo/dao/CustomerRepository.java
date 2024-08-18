@@ -14,8 +14,9 @@ public interface CustomerRepository extends JpaRepository<Customer, Long> {
      * 
      */
 
-    // Check the documentation on JpaRepository on what methods are implemented to
+    // Check the documentation on JpaRepository Spring Boot on what methods are
+    // implemented to
     // suit your needs, if theres not one that suits your needs THEN YOU WILL have
-    // to create a method and add it here!!
+    // to create a method in here!!
 
 }

@@ -13,8 +13,8 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor
 
-// Customer Service needs the methods that are stated within CustomerService,
-// example must meet the requirements of checklist
+// CustomerServiceImpl must meet the requirements of checklist CustomerService
+// otherwise errors
 public class CustomerServiceImpl implements CustomerService {
 
     private final CustomerRepository customerRepository;
